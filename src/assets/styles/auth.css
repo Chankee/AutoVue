@@ -1,0 +1,78 @@
+*{
+      font-family: "微软雅黑" ;
+      font-size: 35px;
+
+}
+
+html,body{
+      margin: 0px;
+      background:url("../../assets/backgroud.jpg") no-repeat center;
+      background-size: 100%;
+      overflow:hidden;
+}
+.login,.register{
+      width: 450px;
+      height: auto;
+      position: relative;
+      background: rgba(255,255,255,0.3);
+      margin: 14% auto;
+      border-radius: 15px;
+
+}
+header{
+      height: 45px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+header>h1{
+      font-size: 35px;
+      text-align: center;
+      margin: 5px 0;
+      color: #020305
+}
+.login_form,register_form{
+
+      padding:50px 50px;
+
+}
+.name{
+        position:relative;
+        margin-bottom:20px;
+        clear:both;
+        border:1px solid rgba(255,255,255,0);
+        width: 100%;
+        height: 40px;
+}
+
+.name label{
+        position: absolute;
+        top: 6px;
+        left: 5px;
+        color: #6C7B9F;
+        border-right: 1px solid rgba(255,255,255,0.3) ;
+}
+
+.name_inp{
+
+        padding-left: 45px;
+        height: 38px;
+        background: rgba(255,255,255,0.3) ;
+        border: none;
+        width:88%;
+        outline:none;
+        font-size: 20px;
+        border-radius: 20px;
+}
+.a_link{
+        color: #2e559f;
+}
+
+.submit{
+        width:100%;
+        height:40px;
+        background: rgba(255,255,255,0.3);
+        display:block;
+        margin:80px auto;
+        font-size: 20px;
+        border-radius: 20px;
+
+}
