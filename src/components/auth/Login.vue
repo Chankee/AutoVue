@@ -1,19 +1,19 @@
 <template>
     <div class="login">
           <header><h1>TestPlatform</h1></header>
-          <div class="login_form">
+          <div class="submit_form">
                 <form>
                       <div class="name">
-                          <label><i class="el-icon-news"></i></label>
-                          <input type="text" v-model="username" placeholder="请输入账号" class="name_inp">
+                          <label><i class="iconfont" style="font-size: 20px">&#xe61c;</i></label>
+                          <input type="text" v-model="username" placeholder="请输入账号/邮箱" class="name_inp">
                       </div>
                       <div class="name">
-                          <label><i class="el-icon-picture-outline"></i></label>
+                          <label><i class="iconfont" style="font-size: 20px">&#xe652;</i></label>
                           <input type="password" v-model="passwd" placeholder="请输入密码" class="name_inp">
                       </div>
                       <div class="a_link">
-                          <a style="float: left;font-size: 18px" >注册账号</a>
-                          <a style="float: right;font-size: 18px" >忘记密码</a>
+                          <p style="float: left;font-size: 18px"><router-link to="/register" style="font-size:18px;color: #4262aa">注册账号</router-link></p>
+                          <p style="float: right;font-size: 18px"><router-link to="/register" style="font-size:18px;color: #4262aa">忘记密码</router-link></p>
                       </div>
                       <button class="submit" >登录</button>
                 </form>
